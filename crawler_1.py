@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#coding=utf-8
 import urllib2
 
 def scratch_facebook(url):
