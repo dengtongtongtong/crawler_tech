@@ -11,7 +11,6 @@ def scratch_facebook(url):
 	except Exception as e:
 		print e
 
-
 def scratch_baidu(url):
 	try:
 		request = urllib2.Request(url)
