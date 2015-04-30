@@ -19,7 +19,6 @@ def scratch_baidu(url):
 		print response.geturl(),response.getcode(),response.info()
 	except Exception as e:
 		print e
-	print response.read()
 
 if __name__=='__main__':
 	scratch_baidu('http://www.baidu.com')
